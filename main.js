@@ -5,13 +5,13 @@ let scene = document.getElementsByClassName("scene")[0]
 console.log(b)
 
 let y = 32, x = 32;
-let v = 10;
+let v = 0;
 let vx = 4;
 
 function step() {
     let H = scene.clientHeight - b.clientHeight;
     let W = scene.clientWidth - b.clientWidth;
-    v += 1 / 2;
+    v += 1 / 4;
     x += vx;
     y += v;
     console.log(v)
