@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(199, 216, 255);
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+}
+
+.scene-background {
+    height: 100vh;
+    background-image: url("img/chester1.jpg");
+    background-position: 50%;
+    background-size: 30%;
+    position: relative;
+}
+
+.scene {
+    position: absolute;
+    background-image: url("img/chester_324.jpg");
+    height: 80vh;
+    width: 80vw;
+    left: 10vw;
+    top: 10vh;
+    background-size: 20%;
+    box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+.ball {
+
+    height: 100px;
+
+    width: 100px;
+    border-radius: 50px;
+
+    background: radial-gradient(farthest-corner at 30px 22.5px, #aaa 0%, blueviolet 50%);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.8);
+
+
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
